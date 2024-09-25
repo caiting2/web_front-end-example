@@ -41,7 +41,25 @@ body {
     /* 子元素間距2.5rem */
     gap: 2.5rem;
 }
+.wrapper .btn-red {
+    background-color: #ff4d4d; 
+    color: black; 
+}
 
+.wrapper .btn-green {
+    background-color: #4dff4d; 
+    color: black; 
+}
+
+.wrapper .btn-pink {
+    background-color: #e878f7; 
+    color: black; 
+}
+
+.wrapper .btn-yellow {
+    background-color: #ffff4d; 
+    color: black; 
+}
 /* 空白的意思是選擇子內容 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
 .wrapper .btn {
@@ -52,7 +70,7 @@ body {
     /* 陰影 */
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #22222230;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
@@ -63,8 +81,9 @@ body {
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
+    background-color: #dcdcdc; /* 懸停背景顏色變暗 */
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #37373750;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
